@@ -14,7 +14,7 @@ interface Certification {
 	  int admissionTestMarks;
 	  int counter;
 
-	 public  RRTechnicalCertification(String studentName, String courseName, int admissionTestMarks) {
+	 public  Rrt(String studentName, String courseName, int admissionTestMarks) {
 	    this.studentName = studentName;
 	    this.courseName = courseName;
 	    this.admissionTestMarks = admissionTestMarks;
@@ -33,7 +33,7 @@ interface Certification {
 	class RegularCourse extends Rrt {
 	  int courseDuration;
 
-	  RegularCourseCertification(String studentName, String courseName, int admissionTestMarks, int courseDuration) {
+	  RegularCourse(String studentName, String courseName, int admissionTestMarks, int courseDuration) {
 	    super(studentName, courseName, admissionTestMarks);
 	    this.courseDuration = courseDuration;
 	  }
@@ -49,8 +49,8 @@ interface Certification {
 	  }
 	}
 
-	class CrashCourseextends Rrt {
-	  CrashCourseCertification(String studentName, String courseName, int admissionTestMarks) {
+	class CrashCourse extends Rrt {
+	  CrashCourse(String studentName, String courseName, int admissionTestMarks) {
 	    super(studentName, courseName, admissionTestMarks);
 	  }
 
