@@ -132,7 +132,7 @@ class Course {
 class MarksTester{
 		public static void main(String args[])
 		{
-			Course a=new Course("peter",5001,78,1005,false);
+			Course c1=new Course("peter",5001,78,1005,false);
 
 			
 			System.out.println("Student Name: "+a.getStudentName());
