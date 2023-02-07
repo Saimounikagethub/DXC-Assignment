@@ -8,7 +8,7 @@ class WalletUser {
 	private String emailId;
     private double walletBalance;
 
-    public User(int id, String username,String emailId,double walletBalance)
+    public WalletUser(int id, String username,String emailId,double walletBalance)
     {
     	this.id=id;
     	this.username=username;
