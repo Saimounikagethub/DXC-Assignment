@@ -53,13 +53,11 @@ public class ArrayTester
         ArrayTeacher a2 = new ArrayTeacher("John", "RDBMS", 800L);
         ArrayTeacher a3 = new ArrayTeacher("Sam", "Networking", 900L);
         ArrayTeacher a4 = new ArrayTeacher("Maria", "Python", 900L);
-
-        Teacher[] teachers = {a1, a2, a3, a4};
-
-        for (Teacher teacher : teachers) {
-            System.out.print("\nName: " + Arrayteacher.getTeacherName());
-            System.out.print(", Subject: " + Arrayteacher.getSubject());
-            System.out.print(", Salary: " + Arrayacher.getSalary());
+        ArrayTeacher[] teachers = {a1, a2, a3, a4};
+         {
+            System.out.print("\nName: " + ArrayTeacher.getTeacherName());
+            System.out.print(", Subject: " + ArrayTeacher.getSubject());
+            System.out.print(", Salary: " + ArrayTeacher.getSalary());
         }
     }
 }
