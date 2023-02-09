@@ -6,14 +6,14 @@ public class MoveSpecial
 	{
 		this.s = s;
 	}
-	public String getMoveSplC() 
+	public String getMoveSpecial() 
 	{
 		String str = s.replaceAll("[A-Za-z0-9]","");
 		String a = s.replaceAll("[^A-Za-z0-9]","");
 		return str+a;
 	}
 
-	public void setMoveSplC(String s) {
+	public void setMoveSpecial(String s) {
 		this.s = s;
 	}	
 }
