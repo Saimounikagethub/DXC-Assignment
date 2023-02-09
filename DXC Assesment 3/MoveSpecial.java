@@ -17,7 +17,7 @@ public class MoveSpecial
 		this.s = s;
 	}	
 }
-public class MoveCharacters
+public class MoveCharacterstester
 {
 	
 	public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class MoveCharacters
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a string: ");
 		String in = str.nextLine();
-		MoveSplC a = new MoveSplC(in);
+		MoveSpecial a = new MoveSpecial(in);
 		
 		System.out.println(a.getMsc());
 	}
